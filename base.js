@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     es2020: true,
-    "shared-node-browser": true,
+    "shared-node-browser": false,
   },
   ignorePatterns: ["dist/**", "lib/**"],
   parser: "@typescript-eslint/parser",
